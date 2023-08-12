@@ -1,24 +1,17 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Print ALphabet in lower and upper cases
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int ch 'a';
-	int CH 'A';
+	int a;
 
-	while (ch <= 'a')
-	{
+	for (a = 'a'; a <= 'z'; a++)
+		putchar(a);
+	for (a = 'A'; a <= 'Z'; a++)
 		putchar(ch);
-		ch++;
-	}
-	while (ch <= 'A')
-	{
-		putchar(CH);
-		CH++;
-	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
