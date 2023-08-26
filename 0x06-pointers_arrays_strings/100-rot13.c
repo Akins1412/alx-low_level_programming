@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.n>
+#include <stdio.h>
 /**
  * rot13 - encoder rot13
  * @y: Pointing to string params
