@@ -6,7 +6,7 @@
   * @width: input
   * @height: input
   *
-  * Return: NULL
+  * Return: i
   */
 
 int **alloc_grid(int width, int height)
@@ -31,7 +31,7 @@ int **alloc_grid(int width, int height)
 
 		if (i[a] == NULL)
 		{
-			for (b = i; b >= 0; b--)
+			for (b = a; b >= 0; b--)
 			{
 				free(i[b]);
 			}
