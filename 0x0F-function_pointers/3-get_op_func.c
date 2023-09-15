@@ -1,4 +1,4 @@
-3-calc.nclude "3-calc.h"
+"3-calc.h"
 #include <stdlib.h>
 #include <string.h>
 
